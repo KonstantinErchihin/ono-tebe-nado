@@ -1,8 +1,8 @@
 .header { 
-  display: flex;
   padding: 92px 49px 92px 51px;
   align-items: center;
   justify-content: space-between;
+  display: flex;
 }
 
 .header__logo {
@@ -46,12 +46,12 @@
 }
 
 .cover {
-  display: flex;
   padding: 172px 50px 50px;    
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  display: flex;
   background-size: cover;
   flex-direction: column;
   font-family: Raleway, sans-serif;
@@ -128,7 +128,6 @@
   z-index: 1;
   justify-content: center;
   margin-top: 37px;
-  justify-content: flex-end;
   align-items: center;
   gap: 79px;
 }
@@ -181,8 +180,8 @@
 }
 
 .card { 
-  display: flex;
   position: relative;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-family: Raleway, sans-serif;
@@ -247,7 +246,7 @@
 
 }
 
-.about{
+.about {
   display: grid;
   margin: 0px 50px 179px 145px;
   grid-template-columns: 1fr 3fr;
@@ -284,14 +283,14 @@
   text-transform: uppercase;
 }
 
-.about__text{  
-  display: flex;
+.about__text { 
   flex-direction: column;
   gap: 25px;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  display: flex;
 }
 
 .footer {
